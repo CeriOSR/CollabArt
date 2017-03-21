@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customTriangleView: TriangleImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        customTriangleView.images = [UIImage(named: "1")!, UIImage(named: "2")!, UIImage(named: "3")!]
+        customTriangleView.delegate = self
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+}
+
+extension ViewController: TriangImageViewDelegate {
+    func didTapImage(image: UIImage) {
+        print("Image Tapped: \(image)")
     }
-
-
 }
 

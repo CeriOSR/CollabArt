@@ -15,6 +15,7 @@
 		E0BAEDF81E80CE8300C494A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAEDF61E80CE8300C494A5 /* LaunchScreen.storyboard */; };
 		E0BAEE031E80CE8300C494A5 /* ColLabs_CeriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEE021E80CE8300C494A5 /* ColLabs_CeriOSTests.swift */; };
 		E0BAEE0E1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEE0D1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift */; };
+		E0BAEE1C1E80CF4800C494A5 /* TriangleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEE1B1E80CF4800C494A5 /* TriangleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E0BAEE091E80CE8300C494A5 /* ColLabs-CeriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColLabs-CeriOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAEE0D1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColLabs_CeriOSUITests.swift; sourceTree = "<group>"; };
 		E0BAEE0F1E80CE8300C494A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BAEE1B1E80CF4800C494A5 /* TriangleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E0BAEDF61E80CE8300C494A5 /* LaunchScreen.storyboard */,
 				E0BAEDF91E80CE8300C494A5 /* Info.plist */,
 				E0BAEDF11E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld */,
+				E0BAEE1B1E80CF4800C494A5 /* TriangleImageView.swift */,
 			);
 			path = "ColLabs-CeriOS";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				E0BAEDED1E80CE8300C494A5 /* ViewController.swift in Sources */,
 				E0BAEDEB1E80CE8300C494A5 /* AppDelegate.swift in Sources */,
+				E0BAEE1C1E80CF4800C494A5 /* TriangleImageView.swift in Sources */,
 				E0BAEDF31E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
