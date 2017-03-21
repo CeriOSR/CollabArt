@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BAEDEB1E80CE8300C494A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEDEA1E80CE8300C494A5 /* AppDelegate.swift */; };
+		E0BAEDED1E80CE8300C494A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEDEC1E80CE8300C494A5 /* ViewController.swift */; };
+		E0BAEDF01E80CE8300C494A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAEDEE1E80CE8300C494A5 /* Main.storyboard */; };
+		E0BAEDF31E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEDF11E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld */; };
+		E0BAEDF51E80CE8300C494A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BAEDF41E80CE8300C494A5 /* Assets.xcassets */; };
+		E0BAEDF81E80CE8300C494A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAEDF61E80CE8300C494A5 /* LaunchScreen.storyboard */; };
+		E0BAEE031E80CE8300C494A5 /* ColLabs_CeriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEE021E80CE8300C494A5 /* ColLabs_CeriOSTests.swift */; };
+		E0BAEE0E1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAEE0D1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0BAEDFF1E80CE8300C494A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BAEDDF1E80CE8300C494A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BAEDE61E80CE8300C494A5;
+			remoteInfo = "ColLabs-CeriOS";
+		};
+		E0BAEE0A1E80CE8300C494A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BAEDDF1E80CE8300C494A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BAEDE61E80CE8300C494A5;
+			remoteInfo = "ColLabs-CeriOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0BAEDE71E80CE8300C494A5 /* ColLabs-CeriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColLabs-CeriOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAEDEA1E80CE8300C494A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0BAEDEC1E80CE8300C494A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0BAEDEF1E80CE8300C494A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0BAEDF21E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColLabs_CeriOS.xcdatamodel; sourceTree = "<group>"; };
+		E0BAEDF41E80CE8300C494A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0BAEDF71E80CE8300C494A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0BAEDF91E80CE8300C494A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BAEDFE1E80CE8300C494A5 /* ColLabs-CeriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColLabs-CeriOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAEE021E80CE8300C494A5 /* ColLabs_CeriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColLabs_CeriOSTests.swift; sourceTree = "<group>"; };
+		E0BAEE041E80CE8300C494A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BAEE091E80CE8300C494A5 /* ColLabs-CeriOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColLabs-CeriOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAEE0D1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColLabs_CeriOSUITests.swift; sourceTree = "<group>"; };
+		E0BAEE0F1E80CE8300C494A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BAEDE41E80CE8300C494A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEDFB1E80CE8300C494A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEE061E80CE8300C494A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BAEDDE1E80CE8300C494A5 = {
+			isa = PBXGroup;
+			children = (
+				E0BAEDE91E80CE8300C494A5 /* ColLabs-CeriOS */,
+				E0BAEE011E80CE8300C494A5 /* ColLabs-CeriOSTests */,
+				E0BAEE0C1E80CE8300C494A5 /* ColLabs-CeriOSUITests */,
+				E0BAEDE81E80CE8300C494A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BAEDE81E80CE8300C494A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAEDE71E80CE8300C494A5 /* ColLabs-CeriOS.app */,
+				E0BAEDFE1E80CE8300C494A5 /* ColLabs-CeriOSTests.xctest */,
+				E0BAEE091E80CE8300C494A5 /* ColLabs-CeriOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BAEDE91E80CE8300C494A5 /* ColLabs-CeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAEDEA1E80CE8300C494A5 /* AppDelegate.swift */,
+				E0BAEDEC1E80CE8300C494A5 /* ViewController.swift */,
+				E0BAEDEE1E80CE8300C494A5 /* Main.storyboard */,
+				E0BAEDF41E80CE8300C494A5 /* Assets.xcassets */,
+				E0BAEDF61E80CE8300C494A5 /* LaunchScreen.storyboard */,
+				E0BAEDF91E80CE8300C494A5 /* Info.plist */,
+				E0BAEDF11E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld */,
+			);
+			path = "ColLabs-CeriOS";
+			sourceTree = "<group>";
+		};
+		E0BAEE011E80CE8300C494A5 /* ColLabs-CeriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAEE021E80CE8300C494A5 /* ColLabs_CeriOSTests.swift */,
+				E0BAEE041E80CE8300C494A5 /* Info.plist */,
+			);
+			path = "ColLabs-CeriOSTests";
+			sourceTree = "<group>";
+		};
+		E0BAEE0C1E80CE8300C494A5 /* ColLabs-CeriOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAEE0D1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift */,
+				E0BAEE0F1E80CE8300C494A5 /* Info.plist */,
+			);
+			path = "ColLabs-CeriOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BAEDE61E80CE8300C494A5 /* ColLabs-CeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAEE121E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOS" */;
+			buildPhases = (
+				E0BAEDE31E80CE8300C494A5 /* Sources */,
+				E0BAEDE41E80CE8300C494A5 /* Frameworks */,
+				E0BAEDE51E80CE8300C494A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColLabs-CeriOS";
+			productName = "ColLabs-CeriOS";
+			productReference = E0BAEDE71E80CE8300C494A5 /* ColLabs-CeriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0BAEDFD1E80CE8300C494A5 /* ColLabs-CeriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAEE151E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOSTests" */;
+			buildPhases = (
+				E0BAEDFA1E80CE8300C494A5 /* Sources */,
+				E0BAEDFB1E80CE8300C494A5 /* Frameworks */,
+				E0BAEDFC1E80CE8300C494A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BAEE001E80CE8300C494A5 /* PBXTargetDependency */,
+			);
+			name = "ColLabs-CeriOSTests";
+			productName = "ColLabs-CeriOSTests";
+			productReference = E0BAEDFE1E80CE8300C494A5 /* ColLabs-CeriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0BAEE081E80CE8300C494A5 /* ColLabs-CeriOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAEE181E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOSUITests" */;
+			buildPhases = (
+				E0BAEE051E80CE8300C494A5 /* Sources */,
+				E0BAEE061E80CE8300C494A5 /* Frameworks */,
+				E0BAEE071E80CE8300C494A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BAEE0B1E80CE8300C494A5 /* PBXTargetDependency */,
+			);
+			name = "ColLabs-CeriOSUITests";
+			productName = "ColLabs-CeriOSUITests";
+			productReference = E0BAEE091E80CE8300C494A5 /* ColLabs-CeriOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BAEDDF1E80CE8300C494A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CeriOS;
+				TargetAttributes = {
+					E0BAEDE61E80CE8300C494A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+					};
+					E0BAEDFD1E80CE8300C494A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0BAEDE61E80CE8300C494A5;
+					};
+					E0BAEE081E80CE8300C494A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AS82F53XC3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0BAEDE61E80CE8300C494A5;
+					};
+				};
+			};
+			buildConfigurationList = E0BAEDE21E80CE8300C494A5 /* Build configuration list for PBXProject "ColLabs-CeriOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0BAEDDE1E80CE8300C494A5;
+			productRefGroup = E0BAEDE81E80CE8300C494A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BAEDE61E80CE8300C494A5 /* ColLabs-CeriOS */,
+				E0BAEDFD1E80CE8300C494A5 /* ColLabs-CeriOSTests */,
+				E0BAEE081E80CE8300C494A5 /* ColLabs-CeriOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BAEDE51E80CE8300C494A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAEDF81E80CE8300C494A5 /* LaunchScreen.storyboard in Resources */,
+				E0BAEDF51E80CE8300C494A5 /* Assets.xcassets in Resources */,
+				E0BAEDF01E80CE8300C494A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEDFC1E80CE8300C494A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEE071E80CE8300C494A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BAEDE31E80CE8300C494A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAEDED1E80CE8300C494A5 /* ViewController.swift in Sources */,
+				E0BAEDEB1E80CE8300C494A5 /* AppDelegate.swift in Sources */,
+				E0BAEDF31E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEDFA1E80CE8300C494A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAEE031E80CE8300C494A5 /* ColLabs_CeriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAEE051E80CE8300C494A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAEE0E1E80CE8300C494A5 /* ColLabs_CeriOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0BAEE001E80CE8300C494A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BAEDE61E80CE8300C494A5 /* ColLabs-CeriOS */;
+			targetProxy = E0BAEDFF1E80CE8300C494A5 /* PBXContainerItemProxy */;
+		};
+		E0BAEE0B1E80CE8300C494A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BAEDE61E80CE8300C494A5 /* ColLabs-CeriOS */;
+			targetProxy = E0BAEE0A1E80CE8300C494A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0BAEDEE1E80CE8300C494A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BAEDEF1E80CE8300C494A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0BAEDF61E80CE8300C494A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BAEDF71E80CE8300C494A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BAEE101E80CE8300C494A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0BAEE111E80CE8300C494A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BAEE131E80CE8300C494A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E0BAEE141E80CE8300C494A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E0BAEE161E80CE8300C494A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColLabs-CeriOS.app/ColLabs-CeriOS";
+			};
+			name = Debug;
+		};
+		E0BAEE171E80CE8300C494A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColLabs-CeriOS.app/ColLabs-CeriOS";
+			};
+			name = Release;
+		};
+		E0BAEE191E80CE8300C494A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ColLabs-CeriOS";
+			};
+			name = Debug;
+		};
+		E0BAEE1A1E80CE8300C494A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = "ColLabs-CeriOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CeriOS.ColLabs-CeriOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ColLabs-CeriOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BAEDE21E80CE8300C494A5 /* Build configuration list for PBXProject "ColLabs-CeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAEE101E80CE8300C494A5 /* Debug */,
+				E0BAEE111E80CE8300C494A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BAEE121E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAEE131E80CE8300C494A5 /* Debug */,
+				E0BAEE141E80CE8300C494A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0BAEE151E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAEE161E80CE8300C494A5 /* Debug */,
+				E0BAEE171E80CE8300C494A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0BAEE181E80CE8300C494A5 /* Build configuration list for PBXNativeTarget "ColLabs-CeriOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAEE191E80CE8300C494A5 /* Debug */,
+				E0BAEE1A1E80CE8300C494A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0BAEDF11E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0BAEDF21E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodel */,
+			);
+			currentVersion = E0BAEDF21E80CE8300C494A5 /* ColLabs_CeriOS.xcdatamodel */;
+			path = ColLabs_CeriOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E0BAEDDF1E80CE8300C494A5 /* Project object */;
+}
